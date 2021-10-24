@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+          h1 {
+  /*線の種類（実線） 太さ 色*/
+  border-bottom: solid 3px black;
+}
+            h2 {
+              background: #ffeeee;
+              box-shadow: 0px 0px 0px 5px #ffeeee;
+              border: dashed 1px #fe9696;
+              padding: 0.2em 0.5em;
+              color: #454545;
+            }
+            ul, ol {
+              background: #fcfcfc;/*背景色*/
+              padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
+              border: solid 3px gray;/*線の種類 太さ 色*/
+            }
+
+            ul li, ol li {
+                line-height: 1.5; /*文の行高*/
+                padding: 0.5em 0; /*前後の文との余白*/
+            }
+            th,td {
+                border: solid 1px;
+                padding: 10px;
+            }
+ 
+            table {
+                border-collapse:  collapse;
+            }
+            .step {
+                background: rgb(255, 252, 189);/*背景色*/
+                padding: 0.5em 0.5em 0.5em 1em;/*ボックス内の余白*/
+                border: solid 3px gray;/*線の種類 太さ 色*/
+                margin-top: 20px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Japanese food's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#omelette-rice">Omelette rice</a></li>
+            <li><a href="#fried-shrimp">Fried Shrimp</a></li>
+            <li><a href="#mill-crepes">Mill crêpes</a></li>
+        </ol>
+        
+        <h2 id="omelette-rice">Omelette rice</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Omurice_by_perago89_in_Asakusa%2C_Tokyo.jpg" width="300px">
+        <ul>
+            <li>Time: 20 mins</li>
+            <li>Serves: 2</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>onion</td>
+                    <td>1/2</td>
+                </tr>
+                <tr>
+                    <td>chicken meat</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>mixed vegitables</td>
+                    <td>1/2 cup</td>
+                </tr>
+                <tr>
+                    <td>rice</td>
+                    <td>2 servings</td>
+                </tr>
+                <tr>
+                    <td>ketchup</td>
+                    <td>1 Tbsp</td>
+                </tr>
+                <tr>
+                    <td>large egg</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="step">
+            <p><strong>Step 1:</strong> Cut onions and chicken.</p>
+            <p><strong>Step 2:</strong> Heat onions, chicken and other vegetables.</p>
+            <p><strong>Step 3:</strong> Add rice and ketchup and fry.</p>
+            <p><strong>Step 4:</strong> Bake the stirred eggs.</p>
+            <p><strong>Step 5:</strong> Wrap chicken rice in eggs.</p>
+        </div>
+        
+    <p><em>Source: <a href="https://www.justonecookbook.com/omurice-japanese-omelette-rice/">Omurice (Japanese Omelette Rice) オムライス</a></em></p>
+    
+    <h2 id="fried-shrimp">Fried Shrimp</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Ebi_Fry_003.jpg" width="300px">
+        <ul>
+            <li>Time: 30 mins</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>prawn</td>
+                    <td>1lb</td>
+                </tr>
+                <tr>
+                    <td>all-purpose flour</td>
+                    <td>1/2 cup</td>
+                </tr>
+                <tr>
+                    <td>large eggs</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>panko</td>
+                    <td>2 cups</td>
+                </tr>
+                <tr>
+                    <td>neutral-flavored oil</td>
+                    <td>4 cups</td>
+                </tr>
+                <tr>
+                    <td>salt and pepper</td>
+                    <td>a little</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="step">
+            <p><strong>Step 1:</strong> Season the prawn with salt and pepper.</p>
+            <p><strong>Step 2:</strong> Dredge the prawns with flour, eggs and panko.</p>
+            <p><strong>Step 3:</strong> Put the shrimp in oil.</p>
+            <p><strong>Step 4:</strong> Remove the shrimp from the oil.</p>
+            <p><strong>Step 5:</strong> Please enjoy with tartar sauce.</p>
+        </div>
+        
+        
+    <p><em>Source: <a href="https://www.justonecookbook.com/ebi-fry-fried-shrimp/">Ebi Fry (Japanese Fried Shrimp) エビフライ</a></em></p>
+    
+    <h2 id="mill-crepes">Mill crêpes</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Mille_cr%C3%AApe.jpg" width="300px">
+        <ul>
+            <li>Time: 40 mins</li>
+            <li>Serves: 1</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>whole milk</td>
+                    <td>1.75 cup</td>
+                </tr>
+                <tr>
+                    <td>suger</td>
+                    <td>3 Tbsp</td>
+                </tr>
+                <tr>
+                    <td>large eggs</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>butter</td>
+                    <td>1.5 Tbsp</td>
+                </tr>
+                <tr>
+                    <td>cake flour</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>heavy cream</td>
+                    <td>1 cup</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="step">
+            <p><strong>Step 1:</strong> Add the milk and sugar in a small sauce pan and combine well.</p>
+            <p><strong>Step 2:</strong> Beat the eggs in a large bowl. Then slowly add a small amount of warm milk while whisking.</p>
+            <p><strong>Step 3:</strong> Sift the rest of dry ingredients and mix until there is no lump in the butter.</p>
+            <p><strong>Step 4:</strong> Set a 12-inch non-stick frying pan on low heat.</p>
+            <p><strong>Step 5:</strong> Layer the crepe and whipped cream.</p>
+        </div>
+        
+        
+    <p><em>Source: <a href="https://www.justonecookbook.com/matcha-mille-crepe-cake/">Matcha Mille Crepe Cake (Video) 抹茶ミルクレープケーキ</a></em></p>
+    
+    </body>
+</html>
