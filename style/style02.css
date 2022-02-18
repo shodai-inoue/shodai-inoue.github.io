@@ -1,0 +1,205 @@
+.fadein {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s;
+  margin-top: 50px;
+}
+
+nav {
+  border-bottom: 1px solid #ccc;
+  margin-top: 0px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 2;
+}
+
+nav ul {
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+}
+nav ul li {
+  display: table-cell;
+  min-width: 50px;
+  border-right: 1px solid #ccc;
+}
+nav ul li:first-child {
+  border-left: 1px solid #ccc;
+}
+nav ul li a {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #aaa;
+}
+nav ul li a:hover {
+  background-color: #F8E750;
+  border-bottom: 5px solid #F8E750;
+}
+nav ul li.current {
+  font-weight: bold;
+}
+nav ul li.current a {
+  border-bottom: 5px solid #00B0F0;
+  color: #00B0F0;
+}
+.container {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+.container a {
+  text-decoration: none;
+}
+html, body {
+  margin: 0;
+}
+header {
+  height: 500px;
+  background-size: cover;
+  background-image: url("../image/viewing01.jpg");
+}
+h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+p {
+  clear: both;
+}
+.container a:hover {
+  color: #ff6666
+}
+.box {
+  background-color: #3169d1;
+  border: 2px solid #3169d1;
+  color: #fff !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  padding: 50px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 100px;
+}
+.box:hover {
+  background-color: transparent;
+  border: 2px solid #998bfa;
+  color: #998bfa !important;
+  border-radius: 30px;
+  padding: 50px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 100px;
+}
+#food {
+  background-color: #d16931;
+  border: 2px solid #d16931;
+  color: #fff;
+}
+#food:hover {
+  background-color: transparent;
+  border: 2px solid #998bfa;
+}
+#nature {
+  background-color: #228b22;
+  border: 2px solid #228b22;
+  color: #fff;
+}
+#nature:hover {
+  background-color: transparent;
+  border: 2px solid #998bfa;
+}
+#photo {
+  background-color: #9400d3;
+  border: 2px solid #9400d3;
+  color: #fff;
+}
+#photo:hover {
+  background-color: transparent;
+  border: 2px solid #998bfa;
+}
+#access {
+  background-color: #ff69b4;
+  border: 2px solid #ff69b4;
+  color: #fff;
+}
+#access:hover {
+  background-color: transparent;
+  border: 2px solid #998bfa;
+}
+#mypic1 {
+  text-align: center;
+  width: 50%;
+  border: 10px ridge #ffffe0;
+}
+#picture1 {
+  position: absolute;
+  top: 650px;
+  left: 50px;
+}
+#picture2 {
+  position: absolute;
+  top: 850px;
+  right: 40px;
+}
+#picture3 {
+  position: absolute;
+  top: 1050px;
+  left: 45px;
+}
+#picture4 {
+  position: absolute;
+  top: 1250px;
+  right: 50px;
+}
+#picture5 {
+  position: absolute;
+  top: 1450px;
+  left: 55px;
+}
+#picture6 {
+  position: absolute;
+  top: 1650px;
+  right: 45px;
+}
+#picture7 {
+  position: absolute;
+  top: 1850px;
+  left: 40px;
+}
+#picture8 {
+  position: absolute;
+  top: 2050px;
+  right: 45px;
+}
+#picture9 {
+  position: absolute;
+  top: 2250px;
+  left: 50px;
+}
+#picture10 {
+  position: absolute;
+  top: 2450px;
+  right: 55px;
+}
+#picture11 {
+  position: absolute;
+  top: 2650px;
+  left: 45px;
+}
+#picture12 {
+  position: absolute;
+  top: 2850px;
+  right: 40px;
+}
+.kadai {
+  clear: left;
+}
