@@ -63,12 +63,25 @@ nav ul li.current a {
   top: 400px;
 } */
 body {
-  background: skyblue;
   margin: 0;
 }
 
 .container {
   padding: 32px;
+  background: skyblue;
+}
+
+header {
+  height: 500px;
+  background-size: cover;
+  background-image: url("../../image/kawasemi00.jpg");
+}
+h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Hannari";
 }
 
 .messages {

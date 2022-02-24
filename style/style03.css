@@ -3,8 +3,36 @@
   transform: translateY(20px);
   transition: all 1s;
 }
+header {
+  height: 500px;
+  background-size: cover;
+  background-image: url("../image/food01.jpg");
+}
+#nature {
+  height: 500px;
+  background-size: cover;
+  background-image: url("../image/green06.jpg");
+}
+#photo {
+  height: 500px;
+  background-size: cover;
+  background-image: url("../image/camera01.jpg");
+}
+#access {
+  height: 500px;
+  background-size: cover;
+  background-image: url("../image/bas02.jpg");
+}
+h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Hannari";
+}
 body {
   font-size: 100%;
+  font-family: "Sawarabi+Mincho";
 }
 nav {
   border-bottom: 1px solid #ccc;

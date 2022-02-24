@@ -64,13 +64,15 @@ header {
   background-image: url("../image/viewing01.jpg");
 }
 h1 {
-  font-size: 30px;
+  font-size: 60px;
   color: white;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
+  font-family: "Hannari";
 }
 p {
   clear: both;
+  font-family: "Sawarabi Gothic";
 }
 .container a:hover {
   color: #ff6666
